@@ -13,6 +13,7 @@ This repository contains a graphql server built during the full-cycle course
 To run the service, execute the following command in the terminal:
 
 ```bash
+go mod tidy
 go run cmd/server/server.go
 ```
 
